@@ -42,4 +42,22 @@ A string de conexão está no `appsettings.json`:
 "ConnectionStrings": {
   "MongoDB": "mongodb://localhost:27017"
 }
+```
 
+# 📬 Endpoints da API
+
+| Método | Endpoint          | Ação                    |
+| ------ | ----------------- | ----------------------- |
+| GET    | /api/produto      | Lista todos os produtos |
+| GET    | /api/produto/{id} | Busca produto por ID    |
+| POST   | /api/produto      | Cria novo produto       |
+| PUT    | /api/produto/{id} | Atualiza um produto     |
+| DELETE | /api/produto/{id} | Remove um produto       |
+
+📌 Observações
+Certifique-se de que o MongoDB esteja em execução antes de iniciar a API.
+
+As portas podem variar dependendo do seu launchSettings.json.
+
+📄 Licença
+Este projeto é de uso acadêmico e livre para fins de estudo e aprimoramento.
