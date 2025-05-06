@@ -54,10 +54,11 @@ A string de conexão está no `appsettings.json`:
 | PUT    | /api/produto/{id} | Atualiza um produto     |
 | DELETE | /api/produto/{id} | Remove um produto       |
 
-##📌 Observações
+
+## 📌 Observações
 Certifique-se de que o MongoDB esteja em execução antes de iniciar a API.
 
 As portas podem variar dependendo do seu launchSettings.json.
 
-##📄 Licença
+## 📄 Licença
 Este projeto é de uso acadêmico e livre para fins de estudo e aprimoramento.
